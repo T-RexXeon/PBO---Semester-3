@@ -1,6 +1,6 @@
-package W2.id.ac.polban.service;
+package id.ac.polban.service;
 
-import W2.id.ac.polban.model.Karyawan; 
+import id.ac.polban.model.*; 
 
 public class HRDService {
     

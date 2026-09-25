@@ -1,4 +1,4 @@
-package W2.id.ac.polban.model;
+package id.ac.polban.model;
 
 public class Departmen {
     private String namaDept;

@@ -1,4 +1,3 @@
-
 import id.ac.polban.model.Karyawan; 
 import id.ac.polban.model.Departmen; 
 import id.ac.polban.service.HRDService; 
@@ -21,7 +20,6 @@ public class App {
         System.out.println("\n[ Data Setelah Update ]");
         karyawan1.tampilkanProfil();
 
-        // Mengakses Static Method
         System.out.println("Total Karyawan Terdaftar: " + Karyawan.getTotalKaryawan());
     }
 }

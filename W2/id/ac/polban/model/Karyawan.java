@@ -1,4 +1,4 @@
-package W2.id.ac.polban.model;
+package id.ac.polban.model;
 
 public class Karyawan {
     public static final String NAMA_PERUSAHAAN = "PT. Polban Sejahtera";
