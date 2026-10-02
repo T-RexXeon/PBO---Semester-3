@@ -1,0 +1,10 @@
+Solusi 1 (Pewarisan Berantai): 
+Karena di Case 1 Employee sudah dideklarasikan dengan class Employee extends Sortable, 
+maka Manager cukup menggunakan class Manager extends Employee. Secara otomatis, 
+class Manager sudah mendapatkan semua sifat Sortable melalui class induknya (Employee)
+
+
+Solusi 2 (Menggunakan Interface - Rekomendasi di Java):
+Daripada mendeklarasikan Sortable sebagai abstract class, kita ubah menjadi sebuah interface. 
+Java mengizinkan sebuah class mewarisi satu superclass namun bisa mengimplementasikan banyak interface 
+sekaligus. Deklarasinya akan menjadi: class Manager extends Employee implements Sortable
